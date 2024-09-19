@@ -1,59 +1,30 @@
 export const siteConfig = {
-  author: 'Kevin Wong',
-  title: 'Vitesse theme for Astro',
-  subtitle: 'Vitesse theme for Astro, supports Vue and UnoCSS.',
-  description: 'A Minimal, SEO-friendly portfolio and blog theme for Astro.',
+  author: 'Wei Su',
+  title: `Wei Su's Blog`,
+  subtitle: 'Sharing some thoughts and ideas.',
+  description: `This is Wei Su's blog.`,
   image: {
     src: '/hero.jpg',
     alt: 'Website Main Image',
   },
-  email: 'kevinwong865@gmail.com',
+  email: 'me@weisu.io',
   socialLinks: [
     {
       text: 'GitHub',
-      href: '',
+      href: 'https://github.com/akasuv',
       icon: 'i-simple-icons-github',
       header: 'i-ri-github-line',
-    },
-    {
-      text: 'Twitter',
-      href: '',
-      icon: 'i-simple-icons-x',
-      header: 'i-ri-twitter-x-line',
-    },
-    {
-      text: 'Linkedin',
-      href: '',
-      icon: 'i-simple-icons-linkedin',
-    },
-    {
-      text: 'Instagram',
-      href: '',
-      icon: 'i-simple-icons-instagram',
-    },
-    {
-      text: 'Youtube',
-      href: '',
-      icon: 'i-simple-icons-youtube',
     },
   ],
   header: {
     logo: {
-      src: '/favicon.svg',
+      src: '/favicon.png',
       alt: 'Logo Image',
     },
     navLinks: [
       {
         text: 'Blog',
         href: '/blog',
-      },
-      {
-        text: 'Notes',
-        href: '/blog/notes',
-      },
-      {
-        text: 'Talks',
-        href: '/blog/talks',
       },
       {
         text: 'Projects',
@@ -66,35 +37,11 @@ export const siteConfig = {
       {
         text: 'Blog',
         href: '/blog',
-      },
-      {
-        text: 'Notes',
-        href: '/blog/notes',
-      },
-      {
-        text: 'Talks',
-        href: '/blog/talks',
-      },
+      }
     ],
   },
   footer: {
     navLinks: [
-      {
-        text: 'Posts Props',
-        href: '/posts-props',
-      },
-      {
-        text: 'Markdown Style',
-        href: '/md-style',
-      },
-      {
-        text: 'View on Astro',
-        href: 'https://astro.build/themes/details/vitesse-theme-for-astro/',
-      },
-      {
-        text: 'GitHub Repository',
-        href: 'https://github.com/kevinwong865/astro-theme-vitesse',
-      },
     ],
   },
 }
